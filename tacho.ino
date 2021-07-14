@@ -40,6 +40,8 @@ void loop() {
 
     startTime = millis();
     
+    Serial.print("Starting.");
+
     while (1) {
         t = millis();
         /* In case we have no pulses within a sec, we assume rpm = 0 */
